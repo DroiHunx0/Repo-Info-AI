@@ -1,0 +1,43 @@
+# Chain-Based Prompting 
+
+This guide summarizes chain-based prompting techniques in a simple way.
+
+---
+
+## Core Chain-Based Techniques
+
+### 1. Chain of Thought (CoT)
+**Purpose**: Guides the model to reason step-by-step.
+**Best for**: Logic problems, scripting, decision trees.
+**Example Prompt**: 
+"Let’s reason through this step by step. First, what ports are usually scanned in a default Nmap TCP scan?"
+
+---
+
+### 2. Chain of Density
+**Purpose**: Iteratively increases detail and complexity in the answer.
+**Best for**: Documentation, refining tools, enhancing reports.
+**Example Prompt**:
+"Start with a basic explanation of Amass, then revise to include more context, real-world usage, and technical depth."
+
+---
+
+### 3. Chain of Memories
+**Purpose**: Maintains session-level memory and references past content.
+**Best for**: Workflow planning, recon strategies, multi-step logic.
+**Example Prompt**:
+"Earlier we discussed scanning techniques. Summarize what we covered, and build on it with post-processing methods."
+
+---
+
+### 4. Chain of Reflection
+**Purpose**: Encourages the model to review and critique its own output.
+**Best for**: Code improvement, report polishing.
+**Example Prompt**:
+"Now review that script. What are its weaknesses? How would you improve the structure or add logging?"
+
+---
+
+### 5. Chain of Verification
+**Purpose**: Forces the model to evaluate its previous response using a framework.
+**Best for**: Accuracy checking, code audits, security reviews.

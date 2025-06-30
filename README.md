@@ -1,5 +1,5 @@
 # [Repo-Info-AI]
-A simple repository with AI data focused on beginners.
+This is a basic collection of AI data intended for novices and individuals eager to learn more about AI.
 
 ## Overview
 
